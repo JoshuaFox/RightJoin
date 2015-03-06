@@ -51,7 +51,7 @@ FiveYearItch::Application.configure do
   # :port                 => 587,
   # :domain               => "google.com",
   # :user_name            => "marcfent@gmail.com",
-  # :password             => "PraiseMe",
+  # :password             => "__PASSWORD__",
   # :authentication       => :plain,
   # :enable_starttls_auto => true
   # }

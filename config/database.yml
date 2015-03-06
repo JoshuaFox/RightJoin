@@ -28,10 +28,10 @@ development:
   host: localhost
   adapter: postgresql
   encoding: utf8
-  database: fyi_development
+  database: from_dump
   pool: 5
-  username: postgres
-  password: postgres
+  username: __PASSWORD__
+  password: __PASSWORD__
 
 test:
   adapter: postgresql
@@ -39,12 +39,12 @@ test:
   database: fyi_test
   pool: 5
   username: postgres
-  password: postgres
+  password: __PASSWORD__
 
 production:
   adapter: postgresql
   encoding: utf8
   database: fyi_production
   pool: 5
-  username: postgres
-  password: postgres
+  username: __PASSWORD__
+  password: __PASSWORD__

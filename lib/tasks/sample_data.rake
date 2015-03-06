@@ -137,8 +137,8 @@ namespace :db do
   end  
 end
 
-BASIC_PASSWORD = "123456"
-ADMIN_PASSWORD = "Gerud5"
+BASIC_PASSWORD = "__PASSWORD__"
+ADMIN_PASSWORD = "__PASSWORD__"
 DEMO_PASSWORD = ADMIN_PASSWORD
 
 @location_tags_by_locale = {}
@@ -420,7 +420,7 @@ def make_sample_employers(type = BASIC_SAMPLE)
         pw = DEMO_PASSWORD
       end
       
-      if email.blank?#Create a sample employer like sample+3@fiveyearitch.com/Gerud5
+      if email.blank?#Create a sample employer like sample+3@fiveyearitch.com/__PASSWORD__
         email = Constants::SAMPLE_USER_EMAIL_TEMPLATES[0]  % ""
         pw = nil
       end

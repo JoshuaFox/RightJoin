@@ -3,5 +3,5 @@ class UserConstants
     VERIFIED = 1
     DEACTIVATED = 2  
     
-    SAMPLE_PASSWORD = "Gerud5"
+    SAMPLE_PASSWORD = "__PASSWORD__"
 end
